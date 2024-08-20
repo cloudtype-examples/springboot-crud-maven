@@ -4,7 +4,6 @@ build/
 
 # Maven files
 target/
-.mvn/
 
 # IDE files
 .idea/
