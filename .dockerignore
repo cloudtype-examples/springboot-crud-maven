@@ -4,8 +4,6 @@ build/
 
 # Maven files
 target/
-mvnw
-mvnw.cmd
 .mvn/
 
 # IDE files
