@@ -12,9 +12,9 @@ RUN ./mvnw dependency:go-offline -B
 
 COPY . .
 
-RUN chmod +x ./gradlew
+RUN chmod +x ./mvnw
 
-RUN ./gradlew bootJar --no-daemon
+RUN ./mvnw package -DskipTests
 
 
 # Runtime
