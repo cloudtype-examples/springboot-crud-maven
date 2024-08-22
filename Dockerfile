@@ -1,6 +1,6 @@
 # Build
 FROM eclipse-temurin:17-alpine AS build
-RUN apk add --no-cache bash maven
+RUN apk add --no-cache bash
 
 WORKDIR /app
 
