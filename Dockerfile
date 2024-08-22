@@ -18,7 +18,8 @@ RUN ./mvnw package -DskipTests
 
 
 # Runtime
-FROM eclipse-temurin:17-jre-alpine
+FROM eclipse-temurin:17-jre-alpine as runtime
+
 WORKDIR /app
 
 RUN addgroup -g 1000 worker && \
